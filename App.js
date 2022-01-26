@@ -16,7 +16,6 @@ export default function App() {
 
   const [focusHistory, setFocusHistory] = useState([]); //Empty array to store history of all focus subjects
 
-  console.log('yolo');
 
   //Subject : to store the subject // Status : to store object's status
   //Key : flatList going to look for that key. The key can be an UID (import a library to do that)
